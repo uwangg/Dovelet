@@ -1,0 +1,1 @@
+main(n){scanf("%lf",&n);printf("%d",(int)floor(log(n)/log(2.0))+1);}

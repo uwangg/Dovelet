@@ -1,0 +1,1 @@
+main(){int a,i;scanf("%d",&a);for(i=a;a>0;i--){if(a%i==0)printf("%d\n",a/i);}}

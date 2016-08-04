@@ -1,0 +1,1 @@
+main(){int a;scanf("%d",&a);if(a!=7&&a%2==1)printf("enjoy");else printf("opps");}

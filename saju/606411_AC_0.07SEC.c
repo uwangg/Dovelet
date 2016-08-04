@@ -1,0 +1,1 @@
+main(){int a,b,c;scanf("%d%d%d",&a,&b,&c);c=a+b+c;if(c%10==0)printf("운수대통!");else printf("노력하세요!");}

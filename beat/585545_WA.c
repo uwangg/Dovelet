@@ -1,0 +1,1 @@
+main(){int a,b;scanf("%d%d",&a,&b);if(a<b)printf("impossible");else printf("%d %d",(a+b)/2,(a-b)/2);}

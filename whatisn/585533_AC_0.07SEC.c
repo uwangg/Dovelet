@@ -1,0 +1,1 @@
+main(){int a,n=5,k=0;scanf("%d",&a);if(a<6)printf("%d",a/2+1);else{while(1){if(a-n<=a/2)k=k+1;else break;n--;}printf("%d",k);}}

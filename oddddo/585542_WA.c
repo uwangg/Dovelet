@@ -1,0 +1,1 @@
+main(){int n,a[1000]={0,},b[1000],i;scanf("%d",&n);for(i=1;i<=n;i++)a[i]=i*2-1;for(i=n;i>0;i--)b[n-i+1]=a[i];for(i=1;i<=n;i++){a[i]=a[i]*b[i];a[0]=a[0]+a[i];}printf("%d",a[0]);}

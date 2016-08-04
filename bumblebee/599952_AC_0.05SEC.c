@@ -1,0 +1,1 @@
+main(){double a,b,x,l;scanf("%lf%lf%lf%lf",&a,&b,&x,&l);printf("%.6f",l/(a+b)*x);}

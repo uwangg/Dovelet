@@ -1,0 +1,1 @@
+main(){int a,i,r=0;scanf("%d",&a);for(i=1;i<=a;i++){if(a%i==0)r=r+a/i;}if(r-a==a)printf("yes");else printf("no");}

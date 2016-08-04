@@ -1,0 +1,2 @@
+#include<stdlib.h>
+main(){int n,i,m,x,*p=NULL;scanf("%d",&n);p=(int*)malloc(n*sizeof(int));scanf("%d",p);m=*p;x=*p;for(i=1;i<n;i++){scanf("%d",p+i);if(x<*(p+i))x=*(p+i);else if(m>*(p+i))m=*(p+i);}printf("%d %d",x,m);}

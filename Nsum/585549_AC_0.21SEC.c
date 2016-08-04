@@ -1,0 +1,1 @@
+main(){int n;scanf("%d",&n);printf("%d",(int)sqrt((double)2*n));}

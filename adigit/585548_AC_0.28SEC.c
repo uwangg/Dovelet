@@ -1,0 +1,1 @@
+main(){int a,i,b=0,c=0,d=0;for(i=0;i<7;i++){scanf("%d",&a);if(a>99)b=b+a;else if(a>9&&a<100)c=c+a;else d=d+a;}printf("%d %d %d",d,c,b);}

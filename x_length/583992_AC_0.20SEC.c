@@ -1,0 +1,1 @@
+main(){int a,b;scanf("%d%d",&a,&b);printf("%.3lf",(a+b)*(3.14159+sqrt(2.0)));}

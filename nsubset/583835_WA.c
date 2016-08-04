@@ -1,0 +1,1 @@
+main(){int n,m;scanf("%d%d",&n,&m);while(m-1>0){n=n*n;m--;}printf("%d",n);}
